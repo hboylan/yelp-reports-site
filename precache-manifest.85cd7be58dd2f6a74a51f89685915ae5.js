@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "84a85ce3d2764a483343",
-    "url": "/yelp-reports-site/static/css/main.d55b91e0.chunk.css"
+    "revision": "e512a5b1668de23a3652",
+    "url": "/yelp-reports-site/static/css/main.a6b9a329.chunk.css"
   },
   {
-    "revision": "84a85ce3d2764a483343",
-    "url": "/yelp-reports-site/static/js/main.84a85ce3.chunk.js"
+    "revision": "e512a5b1668de23a3652",
+    "url": "/yelp-reports-site/static/js/main.e512a5b1.chunk.js"
   },
   {
-    "revision": "fc67a76d9a64ccb793f8",
-    "url": "/yelp-reports-site/static/css/1.b586a2a0.chunk.css"
+    "revision": "13a4a90358ae15b9261d",
+    "url": "/yelp-reports-site/static/css/1.933731f5.chunk.css"
   },
   {
-    "revision": "fc67a76d9a64ccb793f8",
-    "url": "/yelp-reports-site/static/js/1.fc67a76d.chunk.js"
+    "revision": "13a4a90358ae15b9261d",
+    "url": "/yelp-reports-site/static/js/1.13a4a903.chunk.js"
   },
   {
     "revision": "cb22c582396ad6d0bccc",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-400italic.9680d5a0.woff"
   },
   {
-    "revision": "510dec37fa69fba39593e01a469ee018",
-    "url": "/yelp-reports-site/static/media/roboto-latin-500italic.510dec37.woff2"
-  },
-  {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
     "url": "/yelp-reports-site/static/media/roboto-latin-500.de8b7431.woff"
+  },
+  {
+    "revision": "510dec37fa69fba39593e01a469ee018",
+    "url": "/yelp-reports-site/static/media/roboto-latin-500italic.510dec37.woff2"
   },
   {
     "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
@@ -100,10 +100,6 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
-    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
-    "url": "/yelp-reports-site/static/media/roboto-latin-900.8c2ade50.woff"
-  },
-  {
     "revision": "846d1890aee87fde5d8ced8eba360c3a",
     "url": "/yelp-reports-site/static/media/roboto-latin-700italic.846d1890.woff"
   },
@@ -116,7 +112,11 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
-    "revision": "35278d39793956907ea6e1b07541444f",
+    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
+    "url": "/yelp-reports-site/static/media/roboto-latin-900.8c2ade50.woff"
+  },
+  {
+    "revision": "4033c9b609d73e512527114fd5ea8291",
     "url": "/yelp-reports-site/index.html"
   }
 ];
