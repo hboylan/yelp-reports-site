@@ -42,18 +42,33 @@ class Home extends Component {
         return (
             <div className={classes.root}>
                 <Typography variant="h4" color="inherit" className={classes.flex} noWrap>Sogeti I&D Hackathon 2018</Typography>
+                <br />
+                
+                {/* Unseenstars */}
+                <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Objective</Typography>
+                <Typography variant="body1" color="inherit">
+                    To design a generic big data system to collect, process, and analyze data to provide valuable business insights. Our solution will utilize the Yelp academic dataset to help answer common questions about how to improve the success of a business.
+                </Typography>
+                <br />
 
-                {/* Unseenstars Team */}
+                {/* Team */}
                 <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Unseenstars Team</Typography>
                 <List>
                     {team.map((m, i) => <Teammate m={m} key={i} />)}
                 </List>
+                <br />
 
                 {/* Tableau Reports */}
                 <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Tableau Reports</Typography>
                 <ul>
                     <Link className={classes.link} to="/business">Yelp Businesses</Link>
                 </ul>
+                <br />
+
+                {/* Architecture */}
+                <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Architecture</Typography>
+                <img className={classes.architecture} alt="Architecture Diagrame" src="https://s3.us-east-2.amazonaws.com/unseenstars/architecture.png" />
+                <br />
             </div>
         )
     }

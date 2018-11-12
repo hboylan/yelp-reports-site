@@ -61,6 +61,9 @@ export const home = theme => ({
     },
     profile: {
         flex: 1
+    },
+    architecture: {
+        flex: 1
     }
 })
 
