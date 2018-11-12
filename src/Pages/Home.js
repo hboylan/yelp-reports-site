@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { withStyles } from '@material-ui/core'
 import Avatar from '@material-ui/core/Avatar'
+import Grid from '@material-ui/core/Grid'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
@@ -40,36 +41,67 @@ class Home extends Component {
         const { classes } = this.props
         const { team } = this.state
         return (
-            <div className={classes.root}>
-                <Typography variant="h4" color="inherit" className={classes.flex} noWrap>Sogeti I&D Hackathon 2018</Typography>
-                <br />
+            <Grid className={classes.root} container spacing={24}>
+
+                {/* Title */}
+                <Grid item xs={12}>
+                    <Typography variant="h4" color="inherit" className={classes.flex} noWrap>Sogeti I&D Hackathon 2018</Typography>
+                </Grid>
+
+                {/* Members */}
+                <Grid item xs={4}>
+                    <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Members</Typography>
+                    <List>
+                        {team.map((m, i) => <Teammate m={m} key={i} />)}
+                    </List>
+                </Grid>
+
+                <Grid className={classes.root} container xs={8} spacing={24}>
                 
-                {/* Unseenstars */}
-                <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Objective</Typography>
-                <Typography variant="body1" color="inherit">
-                    To design a generic big data system to collect, process, and analyze data to provide valuable business insights. Our solution will utilize the Yelp academic dataset to help answer common questions about how to improve the success of a business.
-                </Typography>
-                <br />
+                    {/* Objective */}
+                    <Grid item xs={12}>
+                        <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Objective</Typography>
+                        <Typography variant="body1" color="inherit">
+                            To design a generic big data system to collect, process, and analyze data to provide valuable business insights. Our solution will utilize the Yelp academic dataset to help answer common questions about how to improve the success of a business.
+                        </Typography>
+                    </Grid>
 
-                {/* Team */}
-                <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Unseenstars Team</Typography>
-                <List>
-                    {team.map((m, i) => <Teammate m={m} key={i} />)}
-                </List>
-                <br />
+                    {/* Architecture */}
+                    <Grid item xs={12}>
+                        <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Architecture</Typography>
+                        <img className={classes.architecture} alt="Architecture Diagram" src="https://s3.us-east-2.amazonaws.com/unseenstars/architecture.png" />
+                    </Grid>
 
-                {/* Tableau Reports */}
-                <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Tableau Reports</Typography>
-                <ul>
-                    <Link className={classes.link} to="/business">Yelp Businesses</Link>
-                </ul>
-                <br />
+                    {/* Tableau Reports */}
+                    <Grid item xs={12}>
+                        <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Tableau Reports</Typography>
+                        <List>
+                            <ListItem>
+                                <Link className={classes.link} to="/business">
+                                    <Typography variant="body1">Yelp Businesses</Typography>
+                                </Link>
+                            </ListItem>
+                        </List>
+                    </Grid>
 
-                {/* Architecture */}
-                <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Architecture</Typography>
-                <img className={classes.architecture} alt="Architecture Diagrame" src="https://s3.us-east-2.amazonaws.com/unseenstars/architecture.png" />
-                <br />
-            </div>
+                    {/* Code Repositories */}
+                    <Grid item xs={12}>
+                        <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Code Repositories</Typography>
+                        <List>
+                            <ListItem>
+                                <Link className={classes.link} to="https://github.com/hboylan/s3-processing-lambda">
+                                    <Typography variant="body1">Processing Lambda</Typography>
+                                </Link>
+                            </ListItem>
+                            <ListItem>
+                                <Link className={classes.link} to="https://github.com/hboylan/s3-processing-spark">
+                                    <Typography variant="body1">Processing Spark</Typography>
+                                </Link>
+                            </ListItem>
+                        </List>
+                    </Grid>
+                </Grid>
+            </Grid>
         )
     }
 }

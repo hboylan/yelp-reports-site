@@ -14,7 +14,7 @@ export default class NavBar extends Component {
             <AppBar className={classes.appBar}>
                 <Toolbar>
                     <Typography variant="title" color="inherit" className={classes.flex} noWrap>
-                        <Link className={classes.link} to="/">Unseenstars Reporting</Link>
+                        <Link className={classes.link} to="/">Team Unseenstars</Link>
                     </Typography>
                     <Button
                         color="secondary"
