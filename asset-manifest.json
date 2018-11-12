@@ -1,16 +1,16 @@
 {
   "main.css": "/yelp-reports-site/static/css/main.a6b9a329.chunk.css",
-  "main.js": "/yelp-reports-site/static/js/main.e512a5b1.chunk.js",
-  "main.js.map": "/yelp-reports-site/static/js/main.e512a5b1.chunk.js.map",
+  "main.js": "/yelp-reports-site/static/js/main.26ec205d.chunk.js",
+  "main.js.map": "/yelp-reports-site/static/js/main.26ec205d.chunk.js.map",
   "static/css/1.933731f5.chunk.css": "/yelp-reports-site/static/css/1.933731f5.chunk.css",
-  "static/js/1.13a4a903.chunk.js": "/yelp-reports-site/static/js/1.13a4a903.chunk.js",
-  "static/js/1.13a4a903.chunk.js.map": "/yelp-reports-site/static/js/1.13a4a903.chunk.js.map",
+  "static/js/1.cb83e2ab.chunk.js": "/yelp-reports-site/static/js/1.cb83e2ab.chunk.js",
+  "static/js/1.cb83e2ab.chunk.js.map": "/yelp-reports-site/static/js/1.cb83e2ab.chunk.js.map",
   "runtime~main.js": "/yelp-reports-site/static/js/runtime~main.cb22c582.js",
   "runtime~main.js.map": "/yelp-reports-site/static/js/runtime~main.cb22c582.js.map",
-  "static/media/index.css": "/yelp-reports-site/static/media/roboto-latin-900.8c2ade50.woff",
-  "static/css/main.a6b9a329.chunk.css.map": "/yelp-reports-site/static/css/main.a6b9a329.chunk.css.map",
+  "static/media/index.css": "/yelp-reports-site/static/media/roboto-latin-900italic.bc833e72.woff",
   "static/css/1.933731f5.chunk.css.map": "/yelp-reports-site/static/css/1.933731f5.chunk.css.map",
+  "static/css/main.a6b9a329.chunk.css.map": "/yelp-reports-site/static/css/main.a6b9a329.chunk.css.map",
   "index.html": "/yelp-reports-site/index.html",
-  "precache-manifest.85cd7be58dd2f6a74a51f89685915ae5.js": "/yelp-reports-site/precache-manifest.85cd7be58dd2f6a74a51f89685915ae5.js",
+  "precache-manifest.19a4c0cbc4cfaccfcbe6090590dc0693.js": "/yelp-reports-site/precache-manifest.19a4c0cbc4cfaccfcbe6090590dc0693.js",
   "service-worker.js": "/yelp-reports-site/service-worker.js"
 }
