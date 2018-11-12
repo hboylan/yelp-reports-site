@@ -58,6 +58,9 @@ export const home = theme => ({
     root: {
         minHeight: `calc(100% - 100px)`,
         padding: 40
+    },
+    profile: {
+        flex: 1
     }
 })
 

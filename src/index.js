@@ -8,9 +8,11 @@ import theme from './styles'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 
+const basename = window.location.hostname === 'hboylan.github.io' ? '/yelp-reports-site' : '/'
+
 const Root = () => (
 	<MuiThemeProvider theme={createMuiTheme(theme)}>
-		<BrowserRouter>
+		<BrowserRouter basename={basename}>
 			<App />
 		</BrowserRouter>
 	</MuiThemeProvider>
