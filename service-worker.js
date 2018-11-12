@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/yelp-reports-site/precache-manifest.192b91d87461ffcce8a03f053fe64e4d.js"
+  "/yelp-reports-site/precache-manifest.50185a049d68a322bee61bd48ca746ff.js"
 );
 
 workbox.clientsClaim();

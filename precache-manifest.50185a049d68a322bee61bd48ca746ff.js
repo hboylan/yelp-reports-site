@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bdff84f3efd22213572e",
+    "revision": "77b6e78c528db0125588",
     "url": "/yelp-reports-site/static/css/main.d55b91e0.chunk.css"
   },
   {
-    "revision": "bdff84f3efd22213572e",
-    "url": "/yelp-reports-site/static/js/main.bdff84f3.chunk.js"
+    "revision": "77b6e78c528db0125588",
+    "url": "/yelp-reports-site/static/js/main.77b6e78c.chunk.js"
   },
   {
     "revision": "fc67a76d9a64ccb793f8",
@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-100italic.d704bb3d.woff"
   },
   {
-    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
-    "url": "/yelp-reports-site/static/media/roboto-latin-300italic.d69924b9.woff2"
-  },
-  {
     "revision": "a1471d1d6431c893582a5f6a250db3f9",
     "url": "/yelp-reports-site/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
     "revision": "210a7c781f5a354a0e4985656ab456d9",
     "url": "/yelp-reports-site/static/media/roboto-latin-300italic.210a7c78.woff"
+  },
+  {
+    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
+    "url": "/yelp-reports-site/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
     "revision": "bafb105baeb22d965c70fe52ba6b49d9",
@@ -92,12 +92,12 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-500italic.ffcc050b.woff"
   },
   {
-    "revision": "cf6613d1adf490972c557a8e318e0868",
-    "url": "/yelp-reports-site/static/media/roboto-latin-700.cf6613d1.woff"
-  },
-  {
     "revision": "010c1aeee3c6d1cbb1d5761d80353823",
     "url": "/yelp-reports-site/static/media/roboto-latin-700italic.010c1aee.woff2"
+  },
+  {
+    "revision": "cf6613d1adf490972c557a8e318e0868",
+    "url": "/yelp-reports-site/static/media/roboto-latin-700.cf6613d1.woff"
   },
   {
     "revision": "846d1890aee87fde5d8ced8eba360c3a",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
-    "revision": "966dafc2cf936d345df64916f5ff66d3",
+    "revision": "301ebc6c993d506953d417fd9f855419",
     "url": "/yelp-reports-site/index.html"
   }
 ];
