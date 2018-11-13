@@ -8,6 +8,8 @@ import ListItem from '@material-ui/core/ListItem'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import ListItemText from '@material-ui/core/ListItemText'
 import Typography from '@material-ui/core/Typography'
+import AssessmentIcon from '@material-ui/icons/Assessment'
+import CodeIcon from '@material-ui/icons/Code'
 import PersonIcon from '@material-ui/icons/Person'
 import { home as styles } from '../styles'
 
@@ -76,11 +78,12 @@ class Home extends Component {
                     <Grid item xs={12}>
                         <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Tableau Reports</Typography>
                         <List>
-                            <ListItem>
-                                <Link className={classes.link} to="/business">
-                                    <Typography variant="body1">Yelp Businesses</Typography>
-                                </Link>
-                            </ListItem>
+                            <Item
+                                link="/business"
+                                title="Yelp Businesses"
+                                description="Browse businesses geographically to view detailed insights about each"
+                                icon={<AssessmentIcon />}
+                            />
                         </List>
                     </Grid>
 
@@ -88,16 +91,16 @@ class Home extends Component {
                     <Grid item xs={12}>
                         <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Code Repositories</Typography>
                         <List>
-                            <ListItem>
-                                <Link className={classes.link} to="https://github.com/hboylan/s3-processing-lambda">
-                                    <Typography variant="body1">Processing Lambda</Typography>
-                                </Link>
-                            </ListItem>
-                            <ListItem>
-                                <Link className={classes.link} to="https://github.com/hboylan/s3-processing-spark">
-                                    <Typography variant="body1">Processing Spark</Typography>
-                                </Link>
-                            </ListItem>
+                            <Item
+                                link="https://github.com/hboylan/s3-processing-lambda"
+                                title="Processing Lambda"
+                                description="Process data files from S3 using Lambda"
+                            />
+                            <Item
+                                link="https://github.com/hboylan/s3-processing-spark"
+                                title="Processing Spark"
+                                description="Spark JAR to load yelp data into Redshift or Snowflake"
+                            />
                         </List>
                     </Grid>
                 </Grid>
@@ -121,5 +124,20 @@ const Teammate = ({ m }) => (
         />
     </ListItem>
 )
+
+const Item = ({ link, title, description, icon = <CodeIcon /> }) => {
+
+    const primary = (
+        <Link to={link}>
+            <Typography variant="body1">{title}</Typography>
+        </Link>
+    )
+    return (
+        <ListItem>
+            <Avatar>{icon}</Avatar>
+            <ListItemText primary={primary} secondary={description} />
+        </ListItem>
+    )
+}
 
 export default withStyles(styles)(Home)
