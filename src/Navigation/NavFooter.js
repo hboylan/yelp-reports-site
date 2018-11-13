@@ -14,8 +14,7 @@ let NavFooter = ({ classes }) => (
 const styles = theme => ({
   root: {
     padding: 40,
-    background: theme.palette.primary[500],
-    marginTop: 40
+    background: theme.palette.primary[500]
   },
   text: {
     color: theme.palette.background.paper

@@ -61,7 +61,11 @@ export const nav = theme => ({
 export const home = theme => ({
     root: {
         // minHeight: `calc(100% - 100px)`,
-        padding: 20
+        padding: 20,
+        marginBottom: 40
+    },
+    title: {
+        marginBottom: 40
     },
     profile: {
         flex: 1

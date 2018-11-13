@@ -11,7 +11,7 @@ class BusinessReport extends Component {
                 <iframe
                     className={classes.tableauReport}
                     title="Business Report"
-                    src="https://public.tableau.com/views/RestaurantsAvailabilityScores-Snowflake/RestaurantsAvailabilityScore?:showVizHome=no&:embed=true"
+                    src="https://public.tableau.com/views/RestaurantsAvailabilityScores_Extract/RestaurantsAvailabilityScore?:embed=y&:display_count=y&publish=y&:showVizHome=n"
                 />
             </div>
         )

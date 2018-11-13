@@ -46,7 +46,7 @@ class Home extends Component {
             <Grid className={classes.root} container spacing={24}>
 
                 {/* Title */}
-                <Grid item xs={12}>
+                <Grid item xs={12} className={classes.title}>
                     <Typography variant="h4" color="inherit" className={classes.flex} noWrap>Sogeti I&D Hackathon 2018</Typography>
                 </Grid>
 
