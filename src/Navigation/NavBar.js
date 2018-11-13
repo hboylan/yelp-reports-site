@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import AppBar from '@material-ui/core/AppBar'
-import Avatar from '@material-ui/core/Avatar'
 import Button from '@material-ui/core/Button'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import CloudDownload from '@material-ui/icons/CloudDownload'
+import logo from '../public/logo.png'
 
 export default class NavBar extends Component {
 
@@ -14,7 +14,7 @@ export default class NavBar extends Component {
         return (
             <AppBar className={classes.appBar}>
                 <Toolbar>
-                    <img className={classes.logo} alt="Capgemeni Sogeti" src="/android-chrome-192x192.png" />
+                    <img className={classes.logo} alt="Capgemeni Sogeti" src={logo} />
                     &nbsp;
                     <Typography variant="title" color="inherit" className={classes.flex} noWrap>
                         <Link className={classes.link} to="/">
