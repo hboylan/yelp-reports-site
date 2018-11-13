@@ -49,14 +49,14 @@ class Home extends Component {
                 </Grid>
 
                 {/* Members */}
-                <Grid item xs={4}>
+                <Grid item xs={12} md={4}>
                     <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Members</Typography>
                     <List>
                         {team.map((m, i) => <Teammate m={m} key={i} />)}
                     </List>
                 </Grid>
 
-                <Grid className={classes.root} container xs={8} spacing={24}>
+                <Grid className={classes.root} container xs={12} md={8} spacing={24}>
                 
                     {/* Objective */}
                     <Grid item xs={12}>

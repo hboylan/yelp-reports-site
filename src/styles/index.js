@@ -11,6 +11,10 @@ export const nav = theme => ({
         position: 'absolute',
         backgroundColor: theme.palette.background.default
     },
+    logo: {
+        height: 40,
+        width: 40
+    },
     appFrame: {
         position: 'relative',
         display: 'flex',
@@ -63,7 +67,8 @@ export const home = theme => ({
         flex: 1
     },
     architecture: {
-        flex: 1
+        flex: 1,
+        width: '100%'
     }
 })
 
