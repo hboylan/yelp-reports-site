@@ -35,7 +35,8 @@ class Home extends Component {
             name: 'Morgan Robinson',
             pic: 'morgan.robinson'
         }, {
-            name: 'Aravind Krishnakurupsreekumarann'
+            name: 'Aravind Krishna',
+            pic: 'aravind.krishna'
         }]
     }
 
@@ -43,25 +44,25 @@ class Home extends Component {
         const { classes } = this.props
         const { team } = this.state
         return (
-            <Grid className={classes.root} container spacing={24}>
+            <Grid className={classes.root} container>
 
                 {/* Title */}
-                <Grid item xs={12} className={classes.title}>
-                    <Typography variant="h4" color="inherit" className={classes.flex} noWrap>Sogeti I&D Hackathon 2018</Typography>
+                <Grid item xs={12}>
+                    <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Sogeti I&D Hackathon 2018</Typography>
                 </Grid>
 
                 {/* Members */}
-                <Grid item xs={12} md={4}>
+                <Grid item xs={12} md={4} className={classes.nested}>
                     <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Members</Typography>
                     <List>
                         {team.map((m, i) => <Teammate m={m} key={i} />)}
                     </List>
                 </Grid>
 
-                <Grid container xs={12} md={8} spacing={24}>
+                <Grid item xs={12} md={8}>
                 
                     {/* Objective */}
-                    <Grid item xs={12}>
+                    <Grid item xs={12} className={classes.nested}>
                         <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Objective</Typography>
                         <Typography variant="body1" color="inherit">
                             To design a generic big data system to collect, process, and analyze data to provide valuable business insights. Our solution will utilize the Yelp academic dataset to help answer common questions about how to improve the success of a business.
@@ -69,13 +70,13 @@ class Home extends Component {
                     </Grid>
 
                     {/* Architecture */}
-                    <Grid item xs={12}>
+                    <Grid item xs={12} className={classes.nested}>
                         <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Architecture</Typography>
                         <img className={classes.architecture} alt="Architecture Diagram" src="https://s3.us-east-2.amazonaws.com/unseenstars/architecture.png" />
                     </Grid>
 
                     {/* Tableau Reports */}
-                    <Grid item xs={12}>
+                    <Grid item xs={12} className={classes.nested}>
                         <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Tableau Reports</Typography>
                         <List>
                             <Item
@@ -94,7 +95,7 @@ class Home extends Component {
                     </Grid>
 
                     {/* Code Repositories */}
-                    <Grid item xs={12}>
+                    <Grid item xs={12} className={classes.nested}>
                         <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Code Repositories</Typography>
                         <List>
                             <Item

@@ -64,8 +64,8 @@ export const home = theme => ({
         padding: 20,
         marginBottom: 40
     },
-    title: {
-        marginBottom: 40
+    nested: {
+        marginTop: 40
     },
     profile: {
         flex: 1

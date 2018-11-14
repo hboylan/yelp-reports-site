@@ -16,7 +16,7 @@ export default class NavBar extends Component {
                 <Toolbar>
                     <img className={classes.logo} alt="Capgemeni Sogeti" src={logo} />
                     &nbsp;
-                    <Typography variant="title" color="inherit" className={classes.flex} noWrap>
+                    <Typography variant="h6" color="inherit" className={classes.flex} noWrap>
                         <Link className={classes.link} to="/">
                             Team Unseenstars
                         </Link>
