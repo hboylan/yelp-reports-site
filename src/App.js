@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withRouter, Route, Switch, Redirect }  from 'react-router-dom'
 import Navigation from './Navigation'
 import Home from './Pages/Home'
-import BusinessReport from './Pages/BusinessReport';
+import TableauReport from './Pages/TableauReport';
 
 class App extends Component {
 
@@ -11,7 +11,8 @@ class App extends Component {
       <Navigation>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/business" component={BusinessReport} exact />
+          <Route path="/business" render={() => <TableauReport title="Yelp Businesses" view="RestaurantsAvailabilityScores_Extract/RestaurantsAvailabilityScore" />} exact />
+          <Route path="/reviews" render={() => <TableauReport title="Yelp Reviews" view="YelpReviewWordsAnalysis/ReviewWordCountAnalysis" />} exact />
           <Redirect from="*" to="/" />
         </Switch>
       </Navigation>

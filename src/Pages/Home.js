@@ -58,7 +58,7 @@ class Home extends Component {
                     </List>
                 </Grid>
 
-                <Grid className={classes.root} container xs={12} md={8} spacing={24}>
+                <Grid container xs={12} md={8} spacing={24}>
                 
                     {/* Objective */}
                     <Grid item xs={12}>
@@ -80,8 +80,14 @@ class Home extends Component {
                         <List>
                             <Item
                                 link="/business"
-                                title="Yelp Businesses"
+                                title="Yelp Business Details"
                                 description="Browse businesses geographically to view detailed insights about each"
+                                icon={<AssessmentIcon />}
+                            />
+                            <Item
+                                link="/reviews"
+                                title="Yelp Review Words"
+                                description="Browse review keywords to see how users describe businesses"
                                 icon={<AssessmentIcon />}
                             />
                         </List>
