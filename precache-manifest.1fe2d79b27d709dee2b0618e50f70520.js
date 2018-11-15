@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "/yelp-reports-site/static/media/roboto-latin-400.bafb105b.woff"
+    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
+    "url": "/yelp-reports-site/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "200d1e20d094d34ae2eb",
+    "revision": "10ab092d7397949727ea",
     "url": "/yelp-reports-site/static/css/main.847c6ed9.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
-    "revision": "b7544f86712bd1a5b9d1",
-    "url": "/yelp-reports-site/static/js/1.b7544f86.chunk.js"
+    "revision": "200c9be3df1755c4ed72",
+    "url": "/yelp-reports-site/static/js/1.200c9be3.chunk.js"
   },
   {
     "revision": "cb22c582396ad6d0bccc",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-400.5d4aeb4e.woff2"
   },
   {
-    "revision": "200d1e20d094d34ae2eb",
-    "url": "/yelp-reports-site/static/js/main.200d1e20.chunk.js"
+    "revision": "10ab092d7397949727ea",
+    "url": "/yelp-reports-site/static/js/main.10ab092d.chunk.js"
   },
   {
-    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
-    "url": "/yelp-reports-site/static/media/roboto-latin-400italic.d8bcbe72.woff2"
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "/yelp-reports-site/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-500.de8b7431.woff"
   },
   {
-    "revision": "510dec37fa69fba39593e01a469ee018",
-    "url": "/yelp-reports-site/static/media/roboto-latin-500italic.510dec37.woff2"
-  },
-  {
     "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
     "url": "/yelp-reports-site/static/media/roboto-latin-500italic.ffcc050b.woff"
+  },
+  {
+    "revision": "510dec37fa69fba39593e01a469ee018",
+    "url": "/yelp-reports-site/static/media/roboto-latin-500italic.510dec37.woff2"
   },
   {
     "revision": "037d830416495def72b7881024c14b7b",
@@ -116,11 +116,11 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
-    "revision": "b7544f86712bd1a5b9d1",
+    "revision": "200c9be3df1755c4ed72",
     "url": "/yelp-reports-site/static/css/1.9ac57b60.chunk.css"
   },
   {
-    "revision": "c809127e1e5163eaef336720863a24cb",
+    "revision": "8a42fa20880825e42bee4689ebe05cf2",
     "url": "/yelp-reports-site/index.html"
   }
 ];
