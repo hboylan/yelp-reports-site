@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
-    "url": "/yelp-reports-site/static/media/roboto-latin-400italic.d8bcbe72.woff2"
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "/yelp-reports-site/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "10ab092d7397949727ea",
+    "revision": "cc7ba6c1cd2685510554",
     "url": "/yelp-reports-site/static/css/main.847c6ed9.chunk.css"
   },
   {
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-400.5d4aeb4e.woff2"
   },
   {
-    "revision": "10ab092d7397949727ea",
-    "url": "/yelp-reports-site/static/js/main.10ab092d.chunk.js"
+    "revision": "cc7ba6c1cd2685510554",
+    "url": "/yelp-reports-site/static/js/main.cc7ba6c1.chunk.js"
   },
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "/yelp-reports-site/static/media/roboto-latin-400.bafb105b.woff"
+    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
+    "url": "/yelp-reports-site/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/media/roboto-latin-500.de8b7431.woff"
   },
   {
-    "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
-    "url": "/yelp-reports-site/static/media/roboto-latin-500italic.ffcc050b.woff"
-  },
-  {
     "revision": "510dec37fa69fba39593e01a469ee018",
     "url": "/yelp-reports-site/static/media/roboto-latin-500italic.510dec37.woff2"
+  },
+  {
+    "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
+    "url": "/yelp-reports-site/static/media/roboto-latin-500italic.ffcc050b.woff"
   },
   {
     "revision": "037d830416495def72b7881024c14b7b",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/yelp-reports-site/static/css/1.9ac57b60.chunk.css"
   },
   {
-    "revision": "8a42fa20880825e42bee4689ebe05cf2",
+    "revision": "8baa0a775ec146f0df4aea6f48247786",
     "url": "/yelp-reports-site/index.html"
   }
 ];
