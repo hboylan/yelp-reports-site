@@ -18,7 +18,7 @@ export default class NavBar extends Component {
                     &nbsp;
                     <Typography variant="h6" color="inherit" className={classes.flex} noWrap>
                         <Link className={classes.link} to="/">
-                            Unseenstars
+                            Team Unseenstars
                         </Link>
                     </Typography>
                     <Button
