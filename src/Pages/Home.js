@@ -73,6 +73,14 @@ class Home extends Component {
                             To design a generic big data system to collect, process, and analyze data to provide valuable business insights. Our solution will utilize the Yelp academic dataset to help answer common questions about how to improve the success of a business.
                         </Typography>
                     </Grid>
+                
+                    {/* Solution */}
+                    <Grid item xs={12} className={classes.nested}>
+                        <Typography variant="h5" color="inherit" className={classes.flex} noWrap>Solution</Typography>
+                        <Typography variant="body1" color="inherit">
+                            Big data pipeline for AWS and advanced analytics using Tableau to deliver insights from Yelp.
+                        </Typography>
+                    </Grid>
 
                     {/* Architecture */}
                     <Grid item xs={12} className={classes.nested}>
