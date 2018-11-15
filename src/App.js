@@ -13,6 +13,8 @@ class App extends Component {
           <Route path="/" component={Home} exact />
           <Route path="/business" render={() => <TableauReport title="Yelp Businesses" view="RestaurantsAvailabilityScores_Extract/RestaurantsAvailabilityScore" />} exact />
           <Route path="/reviews" render={() => <TableauReport title="Yelp Reviews" view="YelpReviewWordsAnalysis/ReviewWordCountAnalysis" />} exact />
+          <Route path="/sentiment" render={() => <TableauReport title="Yelp Sentiment" view="YelpDataSentimentAnalysis/SentimentalDashboard" />} exact />
+          <Route path="/amenities" render={() => <TableauReport title="Yelp Amenities" view="YelpBusinessAmenitiesScore/YelpAmenitiesScoreDashboard" />} exact />
           <Redirect from="*" to="/" />
         </Switch>
       </Navigation>
